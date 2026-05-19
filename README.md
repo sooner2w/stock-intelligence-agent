@@ -2,7 +2,9 @@
 
 > Built the research stack hedge funds pay $25,000/year for — using free public data, a hand-written AI agent loop, and Python.
 
-**[Live Case Study →](https://breon.ai)** &nbsp;|&nbsp; Built by [Brandon Breon](https://breon.ai)
+## **[▶ Live Demo → alphastack.streamlit.app](https://alphastack.streamlit.app)**
+
+**[Case Study →](https://breon.ai)** &nbsp;|&nbsp; **[GitHub →](https://github.com/sooner2w/stock-intelligence-agent)** &nbsp;|&nbsp; Built by [Brandon Breon](https://breon.ai)
 
 ---
 

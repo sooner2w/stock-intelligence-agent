@@ -12,7 +12,7 @@ Using free data. From scratch. In a weekend.
 **Subhead:**
 An AI agent that reads SEC filings, scores options flow, tracks insider trades, and tells you — in plain English — whether a setup is worth taking.
 
-**[View the Dashboard →]  [Read the Case Study →]**
+**[▶ View the Dashboard →](https://alphastack.streamlit.app)**  &nbsp;|&nbsp;  **[Read the Case Study →](https://breon.ai)**  &nbsp;|&nbsp;  **[GitHub →](https://github.com/sooner2w/stock-intelligence-agent)**
 
 ---
 
@@ -126,7 +126,7 @@ The product sense to know what to build.
 The technical depth to actually build it.
 And the ability to explain the decisions in between.
 
-**[Let's talk →]   [breon.ai →]   [GitHub →]**
+**[Let's talk →]   [breon.ai →]   [GitHub →](https://github.com/sooner2w/stock-intelligence-agent)**
 
 ---
 *Stack: Python · Claude API · SEC EDGAR · Yahoo Finance · ChromaDB · Streamlit*
