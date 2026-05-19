@@ -122,7 +122,7 @@ user message
 ## Setup
 
 ```bash
-git clone https://github.com/brandonbreon/stock-intelligence-agent
+git clone https://github.com/sooner2w/stock-intelligence-agent
 cd stock-intelligence-agent
 
 pip install -r requirements.txt
