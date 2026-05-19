@@ -3,40 +3,29 @@
 
 ---
 
-**Subject:** I built a product on Claude this week. Here's what I learned about designing with AI.
+**Subject:** Something I built on Claude — would love your thoughts.
 
 ---
 
-Hi [Joel / Jenny],
+Hi Joel,
 
-Three links. Thirty seconds. Here's what I built this week on Claude:
+I've been following Anthropic's work closely — particularly the thinking around what it means to design *with* AI rather than just around it. It's a question I got obsessed with this week and ended up building something to try to answer it.
 
-**▶ alphastack.streamlit.app** — live product, open it right now
-**📄 research.breon.ai** — the design thinking behind every decision
-**💻 github.com/sooner2w/stock-intelligence-agent** — every line of code
+It's called AlphaStack — a stock research tool that reads SEC insider filings, scores options unusual activity against 7 independent signals, and surfaces a conviction score in plain English so users know whether something is worth acting on.
 
----
+A few things I'd love to share with you:
 
-What each one proves:
+**alphastack.streamlit.app** — the live product, free to use
+**research.breon.ai** — the design thinking and decisions behind it
+**github.com/sooner2w/stock-intelligence-agent** — the full code
 
-**AlphaStack** proves I ship.
-It's a stock research tool that reads SEC insider filings, parses raw XML Form 4 documents, scores options unusual activity against 7 independent signals, and returns a conviction score with a plain-English recommendation. Not a prototype. Not a mockup. Live, working, free to use right now.
+The part I'm most proud of isn't the engineering — it's the moment I realized that giving users 7 raw signals was the wrong answer. A data dump isn't a product. So I designed a conviction score that does the synthesis and explains the reasoning in plain English. That felt like the actual design problem. The research doc at research.breon.ai walks through that and every other decision along the way.
 
-**research.breon.ai** proves I think like a designer.
-The hardest problem wasn't the engineering — it was deciding that showing users 7 raw signals was the wrong answer. A data dump isn't a product. So I designed a conviction score that does the synthesis for you and explains why in plain English. That's a design decision. The research doc walks through all of them: why I wrote the agentic loop by hand, why the three-layer memory architecture mirrors human cognition, why "near-money only" is a default checkbox. Every choice has a reason.
+I'm a designer who builds — I conceived this, designed it, and shipped the full stack myself. The reason I'm reaching out to you specifically is that Anthropic feels like the only place where that combination is genuinely useful. The design problem and the AI problem aren't separate here. I find that really exciting.
 
-**The GitHub repo** proves I don't just design it — I build it.
-No LangChain. No AutoGen. The agentic loop is written by hand so I understand every step, can debug every failure, and can explain every decision to anyone on the team. That's not stubbornness — it's how I learn at the level I want to operate at.
+I'd love to hear your perspective on the work — and if there's ever a conversation to be had about joining the team, I'm very open to that too.
 
----
-
-The reason I'm writing to you specifically:
-
-Anthropic is the only company where the design problem is inseparable from the AI problem. Designing *with* Claude — not just building interfaces around it — is a fundamentally different discipline. AlphaStack is my answer to what that looks like in practice.
-
-I'm a designer who builds. That combination is what I want to bring to Anthropic.
-
-I'd love 20 minutes.
+Thanks for reading, Joel.
 
 Brandon Breon
 breon.ai | brandonbreon@gmail.com
