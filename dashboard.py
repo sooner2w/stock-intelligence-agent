@@ -310,8 +310,7 @@ def load_yf(sym):
 @st.cache_data(ttl=300)
 def load_options(sym):
     t = yf.Ticker(sym)
-    expirations = t.options
-    return t, expirations
+    return t.options
 
 @st.cache_data(ttl=300)
 def load_chain(sym, expiry):
@@ -695,7 +694,7 @@ with col_right:
 st.markdown("---")
 st.markdown("### Options Flow")
 
-_, expirations = load_options(ticker)
+expirations = load_options(ticker)
 
 if not expirations:
     st.info("No options data available for this ticker.")
@@ -973,7 +972,9 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown(
     '<div style="color:#444; font-size:11px; text-align:center;">'
     'Data: Yahoo Finance (15min delay) · SEC EDGAR (48hr lag) · '
-    'Not financial advice. Do your own research.'
+    'Not financial advice. Do your own research. · '
+    'Built by <a href="https://breon.ai" style="color:#555;">Brandon Breon</a> · '
+    '<a href="https://github.com/sooner2w/stock-intelligence-agent" style="color:#555;">GitHub</a>'
     '</div>',
     unsafe_allow_html=True,
 )
